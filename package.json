@@ -4,7 +4,12 @@
   "description": "- When I Load the page\r - Then I am presented with info page and a navbar on the top contains About, signup, login, our drinks and Room, \r - when I click the signup\r - Then I am presented a register list contains: username, email, password, confirm password , an option to insert a profile and the Register button.\r - when I click Register.\r - THen I am logged in to the app.\r - When I see the main page.\r - Then I have two options Suggest a hot drink and shop a hot drink.\r - When I click the suggest Hot drink.\r - Then I am presented with a suggest drink form contains: Drink name, type of drink, country of drink, description, fun facts, image of the drink and the Submit button.\r - When I Submit \r - Then I am presented the info that I inserted",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "cd server && npm start",
+    "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "heroku-postbuild": "cd client && npm run build"
   },
   "repository": {
     "type": "git",
@@ -13,8 +18,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.13.0"
+    "if-env": "^1.0.4"
   },
   "bugs": {
     "url": "https://github.com/imran7rassi/Quente-Copo/issues"
