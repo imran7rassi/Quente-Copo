@@ -47,7 +47,7 @@ const NavHompage = () => {
         <nav className="homepage-navbar-wrapper">
           <div className="nav-logo-div">
             <Link to="/" className="navbar-logo">
-          Heiss
+          Quente Copo
             </Link>
           </div>
 

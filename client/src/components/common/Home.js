@@ -114,7 +114,7 @@ const Home = () => {
                   </h2>
                 </div>
                 <div className='covered'>
-                  <p>We are Heiss - a revolutionary hot drink service that delivers quality coffee or tea you never even heard of! 
+                  <p>A revolutionary hot drink service that delivers quality coffee or tea you never even heard of! 
                     <br/>With our carefully curated products, we&#39;ve got you covered: from Pakistani Pink Tea to Maghrebi Spiced Mint Tea and Cafe de Olla, just choose browse and order.</p>
                 </div>
               </div>

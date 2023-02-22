@@ -27,29 +27,19 @@ const About = () => {
         <Row>
           <Col className="about-copy">
             <>
-              <p>Hi! 👋  We are &#8216;Heiss&#8217;, a group four students in General Assembly&#39;s Software Engineer Immersion course in London.
+              <p>Hi! 👋  I am Imarn, student in Georgia Tech Bootcamp.
                 <br/>
-              &#8216;Heiss&#8217; or &#8216;Heiß&#8217;, is German for &#8216;Hot&#8217;, which is how we like our drinks 
                 <br/>
-              This group project had us build a Full-Stack React app in 10 days, utalising stuff we learned in the course, experience team work, and we anjoyed it alot!
+              This group project had I build a Full-Stack React app in 10 days, utalising stuff I learned in the course, experience solo work, and I anjoyed it alot!
               </p>
             </>
           </Col>
         </Row>
         <Row className="information">
           <Col className="names">
-            <Row className="subtitle">The Heiss Team</Row>
+            <Row className="subtitle">My Team</Row>
             <Row className="bex">
-              <a href="https://github.com/simplythebex" rel="noreferrer"target="_blank"><i className="fab fa-github"></i> Bex Jones</a>
-            </Row>
-            <Row className="daria">
-              <a href="https://github.com/daria-kafler" rel="noreferrer"target="_blank"><i className="fab fa-github"></i> Daria Kafler</a>
-            </Row>
-            <Row className="ole">
-              <a href="https://github.com/eintrittfrei" rel="noreferrer"target="_blank"><i className="fab fa-github"></i> Ole Nascimento</a>
-            </Row>
-            <Row className="victoria">
-              <a href="https://github.com/victoriaolanipekun" rel="noreferrer"target="_blank"><i className="fab fa-github"></i> Victoria Olanipekun</a>
+              <a href="https://github.com/imran7rassi" rel="noreferrer"target="_blank"><i className="fab fa-github"></i> Imran Rasi</a>
             </Row>
           </Col>
           <Col className="project">
