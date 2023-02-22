@@ -65,7 +65,7 @@ const Nav = () => {
             </li>
             <li className="nav-item">
               <Link to="/heiss-room" className="nav-links" onClick={closeMobileMenu}>
-                Heiss Room
+                Quente Room
               </Link>
             </li>
             <li className="nav-item">
