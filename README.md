@@ -2,7 +2,7 @@
 
 ## Description
 
-This MERN stack application is a multi page book search engine that allows users to search up books, view their detailed information and save them (which they can view in the saved books page). Using Apollo Client, MongoDB and Mongoose, all transactions made are stored accordingly with high level authentication via tokens and JTW-decode to allow for secure access and unique data specific to each users.
+This project is a MERN Stack application. An blog-style application focused on unsolved mysteries. Users can signup for an account and login to commment on posts. 
 
 [Link to live application](https://murmuring-wave-99733.herokuapp.com/)
 
@@ -32,11 +32,7 @@ npm install
 
 <img src="./Assets/demo.gif" width="60%" height="40%" />
 
-To view the application in your local browser, cd into the root directory path and run this in terminal:
 
-```
-npm run develop
-```
 [Link to live application](https://murmuring-wave-99733.herokuapp.com/)
 
 
