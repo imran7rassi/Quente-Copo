@@ -12,7 +12,7 @@ const Header = () => {
         <header>
             <div>
                 <Link to="/" className="text-decoration-none text-body">
-                    <h1>Quente Copo</h1>
+                    <h1>COLD CASE CENTRAL</h1>
                 </Link>
                 <p>You're primary location to find out about new unsolved mysteries, cold cases, and to discuss what you think happened.</p>
                 <div className="double-border"></div>

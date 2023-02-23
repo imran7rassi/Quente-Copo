@@ -1,97 +1,79 @@
-# Cold Case Central
+# Imrans-Book-Search-Engine
 
-|Table of Contents|
-|:---:|
-|[Description](#project-description)|
-|[Installation](#installation)|
-|[Grading Requirements](#grading-requirements)|
-|[Deployed App](#deployed-application)
-|[License](#license)|
-|[Contact](#contact)|
+## Description
 
----
-## Project Description
->An blog-style application focused on unsolved mysteries. Users can signup for an account and login to commment on posts. 
+This MERN stack application is a multi page book search engine that allows users to search up books, view their detailed information and save them (which they can view in the saved books page). Using Apollo Client, MongoDB and Mongoose, all transactions made are stored accordingly with high level authentication via tokens and JTW-decode to allow for secure access and unique data specific to each users.
 
-![screenshot](/client/public/deployedApp.png)
----
+[Link to live application](https://murmuring-wave-99733.herokuapp.com/)
+
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Credits](#credits)
+* [Questions](#questions)
+
 ## Installation
->Fork or clone the repo and open the root file from the terminal. Run `npm i` to install dependencies. 
----
-## Grading Requirements
 
-### Technical Acceptance Criteria: 25%
+1. To install application, clone the main project via the HTTP or SSH link on github.
 
-* Application uses React for the front end.
+```
+git clone
+```
 
-* Application has a GraphQL API with a Node.js and Express.js server, and uses queries and mutations for retrieving, adding, updating, and deleting data.
+2. Once cloned, open the project folder in your text editor and run the following command in terminal to install all dependencies.
+   Important note - You will need to run the below command in the 'root', 'client' and 'server' directory paths.
 
-* Application uses MongoDB and the Mongoose ODM for the database and protects sensitive API key information on the server.
+```
+npm install
+```
 
-* Application meets the minimum requirements of a PWA:
+## Usage
 
-* Uses a web manifest
-* Uses a service worker for offline functionality
-* Is installable.
-* Application includes user authentication using JWT.
+<img src="./Assets/demo.gif" width="60%" height="40%" />
 
-### Concept 10%
-* Application should originate from a unique and novel idea.
+To view the application in your local browser, cd into the root directory path and run this in terminal:
 
-* Your group should clearly and concisely articulate your project idea.
+```
+npm run develop
+```
+[Link to live application](https://murmuring-wave-99733.herokuapp.com/)
 
-### Deployment: 20%
-* Application deployed at live URL on Heroku and loads with no errors.
 
-* Application GitHub URL submitted.
+<img src="./Assets/1.jpg" width="40%" height="40%" /> <img src="./Assets/2.jpg" width="40%" height="40%" />
+<img src="./Assets/3.jpg" width="40%" height="40%" /> <img src="./Assets/4.jpg" width="40%" height="40%" /> 
 
-* Portfolio at live URL submitted, featuring project.
 
-### Repository Quality: 10%
-* Repository has a unique name.
+## License
 
-* Repository follows best practices for file structure and naming conventions.
+![License: MIT](https://img.shields.io/github/license/TheInfamousGrim/orm-e-commerce-back-end?color=yellow)
 
-* Repository follows best practices for class and id naming conventions, indentation, quality comments, etc.
+[MIT License](./LICENSE)
 
-* Repository contains multiple descriptive commit messages.
 
-* Repository contains a high-quality README file with description, screenshot, and link to deployed application.
 
-### Application Quality: 15%
-* Application user experience is intuitive and easy to navigate.
+## Credits
 
-* Application user interface style is clean and polished.
+- React
+- Apollo Client
+- GraphQL
+- Json web token
+- Jwt-decode
+- MongoDB
+- Mongoose
+- React-bootstrap
+- Bootstrap
+- Express
+- Node.js
+- Bcrypt
+- Faker
+- localStorage
+- JSX / JavaScript
+- HTML
+- CSS
 
-* Application is responsive.
+## Questions
 
-### Presentation 10%
-* Your group should present using Google Slides, Powerpoint, or a similar presentation software.
-
-* Every group member should speak during the presentation.
-
-* Your presentation should follow the Project Presentation Template (Links to an external site.).
-
-### Collaboration 10%
-* There are no major disparities in the number of GitHub contributions among group members.
----
-#### Considerations
-> CSS-in-JS\
-> Stripe payment platform
----
-# Deployed Application
-* [Heroku](https://mighty-cliffs-08051.herokuapp.com/)
-* [GitHub](https://project-3-ut-bootcamp.github.io/Cold-Case-Central/)
----
-# License
-MIT
----
-# Contact
-
-| Name             | Role          |
-| :---------------:|:-------------:|
-| Sarah Safarzadeh | -  Front End  |
-| Amanda Babineaux | -  Front End  |
-| Rachel Forsyth   | -  Back End   |
-| Mario Essig      | -             |
-| Lorena Kell      | -             |
+If you have any Questions :
+  * Email : imran.rassi.2020@gmail.com
+  * GitHub: [imran7rassi](https://github.com/imran7rassi)
