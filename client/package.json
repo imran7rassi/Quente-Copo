@@ -1,28 +1,23 @@
 {
   "name": "client",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001/",
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "@apollo/react-hooks": "^4.0.0",
-    "@stripe/stripe-js": "^1.46.0",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^14.0.0",
-    "@testing-library/user-event": "^14.4.3",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.2",
+    "@tinymce/tinymce-react": "^3.9.0",
     "apollo-boost": "^0.4.9",
-    "apollo-link-context": "^1.0.20",
-    "apollo-upload-client": "^17.0.0",
     "graphql": "^15.8.0",
     "graphql-tag": "^2.12.6",
     "jwt-decode": "^3.1.2",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.7.2",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1",
-    "react-redux": "^8.0.5",
-    "react-router-dom": "^6.8.1",
-    "react-scripts": "^5.0.1",
-    "redux": "^4.2.1"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,7 +26,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
@@ -44,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack-pwa-manifest": "^4.3.0"
   }
 }
