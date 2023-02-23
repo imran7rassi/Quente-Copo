@@ -3,7 +3,7 @@
     "dotenv": "^8.2.0",
     "if-env": "^1.0.4"
   },
-  "name": "proxy",
+  "name": "quente-copo",
   "description": "|Table of Contents| |:---:| |[Description](#project-description)| |[Installation](#installation)| |[Grading Requirements](#grading-requirements)| |[License](#license)| |[Contact](#contact)|",
   "version": "1.0.0",
   "main": "server/server.js",
@@ -21,13 +21,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Project-3-UT-Bootcamp/proxy.git"
+    "url": "git+https://github.com/imran7rassi/Quente-Copo.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Project-3-UT-Bootcamp/proxy/issues"
+    "url": "https://github.com/imran7rassi/Quente-Copo/issues"
   },
-  "homepage": "https://github.com/Project-3-UT-Bootcamp/proxy#readme",
-  "keywords": []
+  "homepage": "https://github.com/imran7rassi/Quente-Copo#readme"
 }
