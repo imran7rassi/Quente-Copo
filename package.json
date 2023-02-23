@@ -1,26 +1,24 @@
 {
-  "name": "quente-copo",
-  "version": "1.0.0",
-  "main": "index.js",
   "dependencies": {
-    "axios": "^0.21.1",
-    "bcrypt": "^5.0.1",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.13.0",
-    "react-bootstrap": "^1.6.1",
-    "react-icons": "^4.2.0",
-    "react-map-gl": "^6.1.16"
+    "dotenv": "^8.2.0",
+    "if-env": "^1.0.4"
   },
-  "devDependencies": {},
+  "name": "quente-copo",
+  "description": "|Table of Contents| |:---:| |[Description](#project-description)| |[Installation](#installation)| |[Grading Requirements](#grading-requirements)| |[License](#license)| |[Contact](#contact)|",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  },
   "scripts": {
-    "seed": "node db/seeds.js",
-	  "dev": "npx nodemon",
-    "start": "node index.js", 
-    "build": "cd client && yarn && yarn build" 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "cd server && npm start",
+    "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "npm init -y && npm install if-env && npm install -D concurrently && cd client && npm i && npm i apollo-boost graphql graphql-tag @apollo/react-hooks react-router-dom jwt-decode && cd ../server && npm i && npm i apollo-server-express jsonwebtoken",
+    "seed": "cd server && npm run seed",
+    "heroku-postbuild": "cd client && npm run build"
   },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imran7rassi/Quente-Copo.git"
@@ -30,5 +28,6 @@
   "bugs": {
     "url": "https://github.com/imran7rassi/Quente-Copo/issues"
   },
-  "homepage": "https://github.com/imran7rassi/Quente-Copo#readme"
+  "homepage": "https://github.com/imran7rassi/Quente-Copo#readme",
+  "keywords": []
 }
